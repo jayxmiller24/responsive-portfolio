@@ -128,8 +128,31 @@ hr {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
+.gallery-grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
 
-.gallery-item {
+.gallery-item1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery-item2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery-item3{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.gallery-item4 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-item5 {
     margin-left: auto;
     margin-right: auto;
 }
@@ -209,6 +232,19 @@ float: left;
     width: 300px;
     float: left;
     
+}
+
+.gallery-grid2{
+    float: left;
+    margin-left: -150px;
+   
+}
+.gallery-item2{
+    float: left;
+
+}
+.gallery-grid {
+    margin-left: -150px;
 }
 
 }
