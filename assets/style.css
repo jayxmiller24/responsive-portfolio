@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    margin: 0px auto;
+    color: #777777;
+    background-image: url("images/crosslinedots.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+    
+    
+}
+.container {
+    background: white;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.topnav {
+    background-color: grey;
+    overflow: hidden;
+    
+    height: 70px;
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#header{
+    background: #4aaaa5;
+    float: left;
+    color: White;
+    margin: 0px 0px 30px 20px;
+    
+    display: block;
+    
+
+    
+
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+footer {
+    background: #666666;
+    color: white;
+    text-align: center;
+    border: 25px;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+
+}
+header{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 15px auto;
+
+}
+
+#p {
+    float: right;
+
+}
+
+img {
+    float: left;
+    transform: rotate(180deg);
+    width: 200px;
+    height: 200px;
+    margin: 0px 15px 15px 0px;
+}
+
+.clearfix::after {
+content:"";
+display: table;
+clear: both;
+}
+hr {
+    height: 5px;
+    background: #777777;
+}
+
+
+.message {
+    height: 300px;
+    width: 700px;
+    text-align: center;
+}
+
+#email {
+    width: 725px;
+
+}
+#text {
+    width: 725px;
+}
+
+.gallery-wrapper {
+    max-width: 960px;
+    min-width: 960px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.gallery-item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-plate {
+    background: grey;
+    color: #ededed;
+    
+    text-align: center;
+    height: 2em;
+    position: relative;
+    bottom: 50px;
+    margin-top: 210px;
+    width: 200px;
+}
+#portfolio-img {
+    transform: rotate(180deg);
+}
+
+
+@media only screen and (max-width:980px){
+
+
+}
+
+@media only screen and (max-width:768px){
+#email {
+width: 500px;
+}
+#text{
+    width: 500px;
+}
+    .message {
+    width: 500px;
+    
+}
+
+}
+
+@media only screen and (max-width:640px){
+.topnav-right{
+    overflow: hidden;
+    float: left;
+    display: block;
+
+}
+.flex-container {
+    display: flex;
+    justify-content: left;
+  align-items: left;
+  }
+ 
+  .p {
+float: left;
+   overflow: scroll;
+   margin-right: 680px;
+   margin-left: 25px;
+   height: 500px;
+}
+.flexbox {
+    
+    width: 610px;
+
+    
+}
+#field {
+    width: 200px;
+
+}
+#email {
+    width: 200px;
+}
+#text {
+    width: 200px;
+}
+.message{
+    width: 300px;
+    float: left;
+    
+}
+
+}
